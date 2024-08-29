@@ -1,0 +1,42 @@
+
+html diye layout ene then amra css diye styling korbo shob kichiu te
+
+fontfamily=>
+---------------------
+poppins=400 500 700
+robotto=400
+---------------------
+
+fontfamily css
+===================================================
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+} 
+===================================================
+color=>
+------------
+black = #000000
+white = #ffffff 
+red   = #FD511A
+violet= #413960
+ash   = #585859
+green = #21B573
+
+
+
+<a>**ancor tag by default {font size: 16px;} and {font weight: 400;}**</a>  
+
+
+xxl-xl-lg     md      sm-col 
+
+spacing- margin/padding
+content- size
+font-size
+order 
+------------------------------
+padding default
+xxl-xl-lg     md       sm-col 
+  100-120   80--70     50 - 70   
+-------------------------------
+6C6B6B

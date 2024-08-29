@@ -1,0 +1,351 @@
+/*font links*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto &display=swap');
+
+/*commoon starts*/
+
+:root {
+    --green: #21B573;
+    --black: #000000;
+    --white: #ffffff;
+    --red: #FD511A;
+    --violet: #413960;
+    --ash: #585859;
+    --pop: "Poppins", sans-serif;
+    --rob: "Roboto", sans-serif;
+}
+
+body {
+    font-family: var(--pop);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--black);
+}
+
+
+/*common end*/
+
+
+/*header start*/
+
+header {
+    padding: 17px 0px;
+    background-color: #bbd7bb;
+}
+
+.c_nav {}
+
+.logo {}
+
+.nto:focus {
+    box-shadow: none;
+}
+
+.menu {
+    text-align: right;
+}
+
+.menu ul li a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000 !important;
+    padding: 0 20px !important;
+}
+
+.menu ul li a:hover {
+    color: var(--red) !important;
+}
+
+
+/*button er commoon style start*/
+
+.btn_cm {
+    background-color: var(--green);
+    border-radius: 33px;
+    font-family: var(--rob);
+    font-size: 16px;
+    color: var(--white);
+}
+
+
+/*button er commoon style end*/
+
+
+/*button search start*/
+
+.btn_search {
+    padding: 12px 24px;
+}
+
+
+/*button search end*/
+
+
+/*button hover start*/
+
+.btn_cm:hover {
+    background-color: var(--red);
+    color: var(--white);
+}
+
+
+/*button hover end*/
+
+.btn_cm:active {
+    color: var(--white) !important;
+    background-color: var(--red) !important;
+    border-color: none !important;
+}
+
+
+/*header end*/
+
+
+/* bannner start */
+
+.banner {
+    padding: 0 0 65px;
+    background-color: #bbd7bb;
+}
+
+
+/* banner text */
+
+.b_text {}
+
+
+/* banner paragraph 1 */
+
+.bp1 {
+    color: #FD511A;
+}
+
+
+/* banner heading 1 */
+
+.bh1 {
+    margin: 10px 30px 20px 0;
+    font-size: 48px;
+    font-weight: 700;
+    color: black;
+    line-height: 70px;
+}
+
+
+/* banner heading color */
+
+.bh1 span {
+    color: #21B573;
+}
+
+
+/* banner paragraph 2 */
+
+.bp2 {
+    color: #6C6B6B;
+    line-height: 36px;
+}
+
+
+/* banner get started link button */
+
+.b_link {
+    margin: 15px 0 0;
+    padding: 12px 36px;
+}
+
+
+/* banner image */
+
+.b_img {}
+
+
+/*banner img decendent dhore kore raklam*/
+
+.b_img img {}
+
+
+/* banner end */
+
+
+/* Feature start */
+
+.cm_padding {
+    padding-bottom: 100px;
+}
+
+.feature {}
+
+.sf_feature {
+    margin: 40px 0 0;
+    padding: 55px 0 50px;
+    background-color: #bbd7bb;
+    border-radius: 10px;
+    transition: .33s;
+}
+
+.sf_feature:hover {
+    background-color: white;
+    box-shadow: 0px 20px 40px 0px #0000001A;
+}
+
+.sf_img {
+    width: 66px;
+    height: 85px;
+}
+
+.sf_img img {}
+
+.sf_h2 {
+    margin: 22px 0 0;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+}
+
+.sf_p {}
+
+
+/* FEature end */
+
+
+/* online course start */
+
+.course {}
+
+.cm_title {}
+
+.cm_h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--black);
+    line-height: 54px;
+}
+
+.c_single {
+    margin-top: 60px;
+    padding: 24px 20px 30px;
+    border-radius: 18px;
+    box-shadow: 0px 10px 40px 0px #0000001A;
+}
+
+.c-img {}
+
+.c-img img {}
+
+.c_h1 {
+    margin: 20px 0 5px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #413960;
+    line-height: 36px;
+}
+
+.c_link {
+    margin: 20px 0 35px;
+    padding: 8px 28px;
+}
+
+.c_footer {}
+
+.c_left,
+.c_right {}
+
+.c_left ul li span,
+.c_right ul li span {
+    font-weight: 500;
+}
+
+.c_left ul li img,
+.c_right ul li img {}
+
+
+/* img er margin ta k thik korlam */
+
+.cli:not(:last-child) {
+    margin-right: 2px;
+}
+
+
+/* online course end*/
+
+
+/* testimonial start */
+
+.t_item {
+    margin-top: 60px;
+}
+
+.t_img {}
+
+.t_img img {}
+
+.t_text {}
+
+.t_text p {}
+
+
+/* testimonial end */
+
+
+/* footer-top start */
+
+.footer_top {
+    /* top bottom er padding dibo */
+    padding: 55px 0 70px;
+    /* background color dibo */
+    background-color: #282531;
+}
+
+.ft_details {
+    /* offset na diye o padding diye kaj hoy */
+    padding-right: 140px;
+}
+
+.ft_details p {
+    /* ft_details er paragrap tar */
+    color: white;
+    line-height: 30px;
+}
+
+.ft_links {}
+
+.ft_links h2 {
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    line-height: 30px;
+}
+
+.ft_links ul li a {
+    margin-bottom: 4px;
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+
+/* footer-top end */
+
+
+/* footer start */
+
+footer {
+    padding: 25px 0 35px;
+    background-color: #282531;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+}
+
+footer p a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* footer end */
