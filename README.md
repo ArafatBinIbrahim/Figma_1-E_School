@@ -87,4 +87,4 @@ This project is licensed under the MIT License.
 **Kazi Arafat Bin Ibrahim**
 
 Copyright © 2020 Kazi Arafat Bin Ibrahim
-Live Preview- https://arafatbinibrahim.github.io/Figma_1-E_School/
+Live Preview-[ https://arafatbinibrahim.github.io/Figma_1-E_School/](https://arafatbinibrahim.github.io/E_School/)
